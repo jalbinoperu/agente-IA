@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 import streamlit as st
 from docx import Document
 from io import BytesIO
@@ -48,18 +48,18 @@ if st.button("📄 Generar sesión robusta"):
     doc.add_heading('5. ACTIVIDADES DE APRENDIZAJE', level=1)
     doc.add_heading('Inicio (15 min)', level=2)
     doc.add_paragraph("- Se presenta una situación problemática real del entorno.")
-- Pregunta detonante: ¿Cómo podemos demostrar que el aire ocupa espacio?
-- Activación de saberes previos mediante lluvia de ideas.")
+    doc.add_paragraph("- Pregunta detonante: ¿Cómo podemos demostrar que el aire ocupa espacio?")
+    doc.add_paragraph("- Activación de saberes previos mediante lluvia de ideas.")
 
     doc.add_heading('Desarrollo (50 min)', level=2)
-    doc.add_paragraph("- Los estudiantes realizan un experimento con materiales simples.
-- Formulan hipótesis y registran observaciones.
-- Discuten en grupos sus resultados y reflexionan sobre la validez del método.")
+    doc.add_paragraph("- Los estudiantes realizan un experimento con materiales simples.")
+    doc.add_paragraph("- Formulan hipótesis y registran observaciones.")
+    doc.add_paragraph("- Discuten en grupos sus resultados y reflexionan sobre la validez del método.")
 
     doc.add_heading('Cierre (25 min)', level=2)
-    doc.add_paragraph("- Socialización de hallazgos.
-- Metacognición guiada con preguntas como: ¿Qué aprendiste hoy? ¿Cómo te sentiste trabajando en grupo?
-- Registro en portafolio del proceso seguido.")
+    doc.add_paragraph("- Socialización de hallazgos.")
+    doc.add_paragraph("- Metacognición guiada con preguntas como: ¿Qué aprendiste hoy? ¿Cómo te sentiste trabajando en grupo?")
+    doc.add_paragraph("- Registro en portafolio del proceso seguido.")
 
     # Evaluación
     doc.add_heading('6. EVALUACIÓN', level=1)
