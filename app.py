@@ -47,7 +47,7 @@ if st.button("📄 Generar sesión robusta"):
     # Actividades de aprendizaje
     doc.add_heading('5. ACTIVIDADES DE APRENDIZAJE', level=1)
     doc.add_heading('Inicio (15 min)', level=2)
-    doc.add_paragraph("- Se presenta una situación problemática real del entorno.
+    doc.add_paragraph("- Se presenta una situación problemática real del entorno.")
 - Pregunta detonante: ¿Cómo podemos demostrar que el aire ocupa espacio?
 - Activación de saberes previos mediante lluvia de ideas.")
 
